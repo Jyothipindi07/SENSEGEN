@@ -1,0 +1,56 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies & builds
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+frontend/dist/
+backend/dist/
+.npm/
+
+# Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Runtime uploads, logs, and scratch files
+logs/
+*.log
+backend/uploads/*
+!backend/uploads/.gitkeep
+scratch/
+
+# Large training dataset images/labels (keeping data.yaml configuration)
+SenseGen_Final_Dataset_v2/
+SenseGen_Final_Dataset_v3/train/
+SenseGen_Final_Dataset_v3/valid/
+SenseGen_Final_Dataset_v3/test/
+train/
+valid/
+test/
+data/
+!SenseGen_Final_Dataset_v3/data.yaml
+!data.yaml
+
+# Intermediate YOLO training runs (keeping final v3 weights & metrics)
+runs/detect/
+runs/sensegen_v2/
+runs/sensegen_v3/yolo11n_v3/weights/last.pt

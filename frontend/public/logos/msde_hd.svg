@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 55" height="55" width="260">
+  <!-- State Emblem of India (Lion Capital) -->
+  <g transform="translate(105, 0) scale(0.65)">
+    <!-- Ashoka Lion Emblem Structure -->
+    <path d="M12,2 C10,2 8,4 8,7 C8,10 10,12 12,12 C14,12 16,10 16,7 C16,4 14,2 12,2 Z M4,14 L20,14 L18,24 L6,24 Z M2,25 L22,25 L22,28 L2,28 Z M12,29 A3,3 0 1,1 11.99,29" fill="none" stroke="#f0f4fc" stroke-width="1.8"/>
+  </g>
+  <!-- Text Stack (Centered) -->
+  <text x="130" y="32" font-family="'Segoe UI', sans-serif" font-size="9.5" fill="#ffab00" font-weight="bold" text-anchor="middle">कौशल विकास और उद्यमशीलता मंत्रालय</text>
+  <text x="130" y="43" font-family="'Segoe UI', sans-serif" font-size="9.5" font-weight="bold" fill="#ffffff" text-anchor="middle">Ministry of Skill Development</text>
+  <text x="130" y="52" font-family="'Segoe UI', sans-serif" font-size="8.5" font-weight="bold" fill="#8e9bb4" text-anchor="middle">And Entrepreneurship</text>
+</svg>

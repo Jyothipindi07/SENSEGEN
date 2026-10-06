@@ -1,0 +1,12 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+
+names:
+  0: water_leakage
+  1: garbage_overflow
+  2: fire_accident
+  3: fallen_tree
+  4: road_damage
